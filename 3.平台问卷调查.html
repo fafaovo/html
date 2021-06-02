@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        section{
+            padding: 10px;
+        }
+        .btn{
+            color: green;
+            border:0;
+            border: green 1px solid;
+            outline: 0;
+            background: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <p>感谢您抽出时间帮助我们改进平台</p>
+    <label for="name">Name:</label><input type="search" id="name" placeholder="请输入您的姓名"><br>
+    <label for="email">Email:</label><input type="search" id="email" placeholder="请输入您的邮箱"><br>
+    <label for="age">年龄(请选择):</label>
+    <select id="age">
+        <option>1</option>
+        <option>2</option>
+    </select><br>
+    <label for="occupation">请问您的职业是?</label>
+    <select id="occupation">
+        <option value="">请选择你的职业</option>
+        <option>学生</option>
+    </select><br>
+    <label>
+        <p>你会向朋友推荐粤嵌学习平台</p>
+        <input type="radio" value="会" name="recom" checked>会
+        <input type="radio" value="可能会" name="recom">可能会
+        <input type="radio" value="不会" name="recom">不会
+    </label>
+    <p>你最喜欢粤嵌学习平台的给你是什么</p>
+    <select id="like">
+        <option>请选择</option>
+        <option>知识</option>
+    </select>
+    <p>你希望看到什么改进(可以全选)</p>
+    <input type="checkbox" name="prove">前端项目
+    <input type="checkbox" name="prove">后端项目
+    <input type="checkbox" name="prove">数据可视化
+    <input type="checkbox" name="prove">课程
+    <input type="checkbox" name="prove">班级学习氛围
+    <input type="checkbox" name="prove">答疑
+    <input type="checkbox" name="prove">视频
+    <input type="checkbox" name="prove">附加课程
+    <p>有什么意见或建议吗？</p>
+    <textarea placeholder="Enter your comment here...."></textarea><br>
+    <input type="submit" class="btn">
+    <input type="image" class="img">
+</section>
+
+</body>
+</html>
